@@ -1,12 +1,3 @@
-# 🌳 Comparison Between Decision Tree and Random Forest 🌲
-
-Welcome to this project, where we explore two of the most popular machine learning algorithms: **Decision Tree** and **Random Forest**. This repository provides theoretical explanations, formulas, implementation guidance, and performance comparisons. Whether you're a beginner or an advanced data scientist, you'll find something useful here! 🚀
-
----
-Here’s the revised Table of Contents (ToC) with the "What You’ll Learn" section removed:
-
----
-
 # 📑 Table of Contents
 
 1. [Introduction](#introduction)  
@@ -28,6 +19,11 @@ Here’s the revised Table of Contents (ToC) with the "What You’ll Learn" sect
 9. [License](#license)  
 
 ---
+
+# 🌳 Comparison Between Decision Tree and Random Forest 🌲
+
+Welcome to this project, where we explore two of the most popular machine learning algorithms: **Decision Tree** and **Random Forest**. This repository provides theoretical explanations, formulas, implementation guidance, and performance comparisons. Whether you're a beginner or an advanced data scientist, you'll find something useful here! 🚀
+
 
 
 ## 🔬 Theoretical Concepts
