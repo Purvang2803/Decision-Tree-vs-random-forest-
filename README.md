@@ -1,14 +1,14 @@
-# 📑 Table of Contents
+# 📁 Table of Contents
 
 1. [Introduction](#introduction)  
 2. [Theoretical Concepts](#theoretical-concepts)  
    - [Decision Tree](#decision-tree)  
    - [Random Forest](#random-forest)  
 3. [How to Get Started](#how-to-get-started)  
-   - [Prerequisites](#1️⃣-prerequisites)  
-   - [Clone This Repository](#2️⃣-clone-this-repository)  
-   - [Run the Jupyter Notebook](#3️⃣-run-the-jupyter-notebook)  
-   - [Use Sample Datasets](#4️⃣-use-sample-datasets)  
+   - [Prerequisites](#1%ef%b8%8f%e2%83%a3-prerequisites)  
+   - [Clone This Repository](#2%ef%b8%8f%e2%83%a3-clone-this-repository)  
+   - [Run the Jupyter Notebook](#3%ef%b8%8f%e2%83%a3-run-the-jupyter-notebook)  
+   - [Use Sample Datasets](#4%ef%b8%8f%e2%83%a3-use-sample-datasets)  
 4. [Project Structure](#project-structure)  
 5. [Results and Insights](#results-and-insights)  
    - [Decision Tree](#🌴-decision-tree)  
@@ -24,7 +24,7 @@
 
 Welcome to this project, where we explore two of the most popular machine learning algorithms: **Decision Tree** and **Random Forest**. This repository provides theoretical explanations, formulas, implementation guidance, and performance comparisons. Whether you're a beginner or an advanced data scientist, you'll find something useful here! 🚀
 
-
+---
 
 ## 🔬 Theoretical Concepts
 
@@ -32,21 +32,21 @@ Welcome to this project, where we explore two of the most popular machine learni
 A Decision Tree works by recursively splitting data based on specific conditions to reduce uncertainty or impurity. Here are some key formulas:
 
 1. **Gini Index**:
-   \[
-   Gini = 1 - \sum_{i=1}^{n} p_i^2
-   \]
+   ```
+   Gini = 1 - ∑ (p_i)^2
+   ```
    - Measures impurity of a node. Lower is better! ✅
 
 2. **Entropy**:
-   \[
-   Entropy = -\sum_{i=1}^{n} p_i \log_2(p_i)
-   \]
+   ```
+   Entropy = - ∑ (p_i * log2(p_i))
+   ```
    - Captures the randomness or uncertainty in the data.
 
 3. **Information Gain**:
-   \[
-   IG = Entropy(parent) - \sum_{i=1}^{k} \frac{N_i}{N} \cdot Entropy(i)
-   \]
+   ```
+   IG = Entropy(parent) - ∑ [(N_i / N) * Entropy(i)]
+   ```
    - Used to decide the best feature to split on.
 
 ---
@@ -59,13 +59,13 @@ Random Forest is an ensemble of multiple Decision Trees that work together for m
    - **Regression**: Average of predictions across trees. 📊
 
 2. **Feature Importance**:
-   \[
-   FI(feature) = \sum_{trees} (Gini_{before} - Gini_{after})
-   \]
+   ```
+   FI(feature) = ∑ (Gini_before - Gini_after)
+   ```
    - Helps identify which features are most influential.
 
 3. **Bootstrap Sampling**:
-   - Each tree is trained on a random subset of the data, ensuring diversity in the ensemble. 🎲
+   - Each tree is trained on a random subset of the data, ensuring diversity in the ensemble. 🎠
 
 ---
 
@@ -90,13 +90,13 @@ cd comparison-decision-tree-random-forest
 
 ---
 
-## 📂 Project Structure
+## 🗂️ Project Structure
 
 ```
 📂 Root
-├── 📁 notebook/          # Jupyter Notebook for implementation
-├── 📁 data/              # Sample datasets
-└── 📄 README.md          # This file
+🗋 notebook/          # Jupyter Notebook for implementation
+🗋 data/              # Sample datasets
+🗋 README.md          # This file
 ```
 
 ---
@@ -104,7 +104,7 @@ cd comparison-decision-tree-random-forest
 ## 📊 Results and Insights
 
 ### 🌴 **Decision Tree**
-- Simple and interpretable. 🧾
+- Simple and interpretable. 🗰
 - Works well with smaller datasets.
 - Prone to overfitting. ⚠️
 
@@ -135,4 +135,3 @@ cd comparison-decision-tree-random-forest
 - Explore hyperparameter tuning for Random Forest. 🔧
 - Visualize feature importance in more detail. 📉
 
----
